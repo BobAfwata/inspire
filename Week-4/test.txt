@@ -1,0 +1,2 @@
+Hello from john and Mary
+printing on the file

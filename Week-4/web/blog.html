@@ -2,27 +2,32 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 <title>Personal Website</title>
 </head>
 <body style="margin:10px;">
     <table style="width:100%; border-collapse:collapse; font:14px Arial,sans-serif;">
         <tr>
-            <td colspan="2" style="padding:10px 20px; background-color:#175bb4;">
-                <h1 style="font-size:24px;">Bob's Blog</h1>
+            <td colspan="2" style="padding:10px 20px; background-color:#1920e6;">
+                <h1>Bob's Blog</h1>
             </td>
         </tr>
         <tr style="height:170px;">
-            <td style="width:20%; padding:20px; background-color:#22c70c; vertical-align: top;">
+            <td style="width:10%; padding:10px; background-color:#22c70c; vertical-align: top;">
                 <ul style="list-style:none; padding:0px; line-height:24px;">
                     <li><a href="home.html" style="color:#333;">Home</a></li>
                     <li><a href="index2.html" style="color:#333;">About</a></li>
                     <li><a href="#" style="color:#333;">Contact</a></li>
                 </ul>
             </td>
-            <td style="padding:20px; background-color:#11d0d0; vertical-align:top;">
+            <td style="padding:20px; background-color:#dbaa2a
+            ; vertical-align:top;">
                 <h2>Welcome to my site</h2>
                 <img src=" assets/man.jpg" width="150",height="150">
-                <p>I am Bob Afwata , 22 year old from Nakuru county </p>
+                <p>I am Bob Afwata  22 year<br> hello I am your friend<br>old from Nakuru county </p>
                 <h2> My Hobbies </h2>
                 <ol>
                     <li>Singing</li>
@@ -30,6 +35,18 @@
                     <li>Traveling</li>
                     <li>Dancing</li>
                 </ol>
+                <h2> Contact Me </h2>
+                <form>
+                    <label for="fname">Name:</label>
+                    <input type="text" id="fname" name="fname" size="30"><br><br>
+                    <label for="pin">Email:</label>
+                    <input type="text" id="pin" name="pin" maxlength="4" size="30"><br><br>
+                    <input type="text" value="text">
+                </form>
+                
+                 <button id="msg_button">SEND MESSAGE</button>
+                 <button id="email_button">EMAIL ME </button>
+
             </td>
         </tr>
         <tr>

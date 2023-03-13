@@ -1,0 +1,45 @@
+ //variables in javascript
+        //number
+        // Arithmetic operators
+        // + - * / %(modulus)
+        var f_number = 20;
+        var s_number = 10;
+
+        var sum_num = f_number + s_number;
+        var diff_num = f_number - s_number;
+        var product_num = f_number * s_number;
+        var quotient_num = f_number / s_number;
+        var modulus = f_number % s_number;
+
+        var n1,n2,n3,n4; //declare variables 
+
+        //strings - use " "
+        var my_first_name = "Bob"
+        var my_second_name = "Afwata"
+        var my_city = "Nairobi"
+
+        var full_name = my_first_name + "    "+ my_second_name;
+
+        var age = 18;
+        //float - decimal point 78.67
+        var weight = 86.9;
+
+
+        //Arrays  []
+        let fruits = ["Banana","Apple","Lime","Guava","Orange"]
+        
+        let my_fruit = fruits[fruits.length -1];
+        
+        var msg = "";
+        //conditions -- if else
+        if (age >= 18) {
+             msg = "You can drive";
+        } else {
+            msg = "Still too young to drive";
+        }
+
+        document.getElementById("fruits").innerHTML = msg;
+        document.getElementById("f_number").innerHTML = f_number;
+        document.getElementById("s_number").innerHTML = s_number;
+        document.getElementById("sum").innerHTML = sum_num;
+        document.getElementById("f_name").innerHTML = full_name;

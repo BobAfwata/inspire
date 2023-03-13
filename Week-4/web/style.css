@@ -1,0 +1,37 @@
+body{
+    background-color:cyan;
+}
+
+h1 h2{
+    font-size:40px;
+    color: #000b02;
+    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-height: 30px;
+}
+
+p{
+  background-color: chartreuse;
+  color: crimson;
+  font-size: x-large;
+  align-self: auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#msg_button {
+    color:rgb(5, 228, 42);
+    margin: 25px;
+    align-self:center;
+    background-color:#0808a3;
+    border:none;
+    border-radius:10px;
+}
+
+#email_button {
+    color:rgb(13, 142, 240);
+    margin: 25px;
+    align-self:center;
+    background-color:#e40526;
+    border:none;
+    border-radius:15px;
+}
